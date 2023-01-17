@@ -1,4 +1,4 @@
-## Java Spring Boot - template coding
+## Java Spring Boot | template coding
 Dans ce repo, je vous présente mon template coding pendant mes développments dans un projet.
 
 ### Contexte
