@@ -7,7 +7,7 @@ Un code propre est un code facile à comprendre, facile à modifier et facile à
 
 ### Approches
 ---
-*NB : Cette liste n'est pas forcement en ordre, c'est juste mes check list.*
+*NB : Cette liste n'est pas forcement en ordre, c'est juste une checklist globale.*
 - **Partie fonctionnelle**
 	- Identifier et comprendre les besoins ou les exigences
 	- Quelles sont les règles de gestion
