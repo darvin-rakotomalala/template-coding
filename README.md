@@ -30,8 +30,10 @@ Un code propre est un code facile à comprendre, facile à modifier et facile à
 		- Encapsuler les paramètres de la méthode : les méthodes ne doivent pas avoir trop de paramètres, généralement pas plus de 3 ou 4
 		- Vérifier toujours un objet avant de l'utiliser pour éviter l'erreur NPE
 		- Si une liste est vide, retourne `Collection.isEmpty()` au lieu de renvoyer des éléments nuls. C'est une meilleure façon de décider si un type de collection est vide.
-		- Eviter au maximum le boucle pour avoir une performance et rapidité sur l'API
-		- Il est recommandé de réaliser le besoins/exigence dans la requête de la base de données pour éviter le boucle dans le code métier
+		- Eviter les boucles ou les traitements quand on peut le faire dans la base
+		- Vérifier l'unicité avant de faire un Create ou un Update
+		- Utiliser les fonctionnalités d'IDE pour gagner du temps
+		- Démarrer toujours en mode débogage
 		- Utiliser l'injection de dependance par constructeur
 		- Ne retourne que les données demandés
 		- Identifier les types d'attribut optimal (boolean, int, enum, timestamp, etc) pour certains champs
