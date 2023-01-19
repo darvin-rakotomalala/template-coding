@@ -12,6 +12,7 @@ Un code propre est un code facile à comprendre, facile à modifier et facile à
 	- Identifier et comprendre les besoins ou les exigences
 	- Quelles sont les règles de gestion
 	- Poser des questions pour savoir la logique métier de l'exigence : pourquoi, comment, si....
+	- Valider les exigences avant d'écrire du code
 - **Partie technique***
 	- Conception diagramme de classe
 	- Validation d'approche pour la réalisation des exigences
