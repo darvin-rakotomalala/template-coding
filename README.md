@@ -40,6 +40,7 @@ Un code propre est un code facile à comprendre, facile à modifier et facile à
 		- Identifier les types d'attribut optimal (boolean, int, enum, timestamp, etc) pour certains champs
 		- Utiliser le bloc try/catch avec log @Slf4j. Ne laissez pas les blocs catch vides sans raison, ce qui rendra le débogage plus difficile et chronophage sans raison.
 		- Utiliser Lombok
+		- Utiliser la pagination pour retourner une liste
 		- Indexer les champs nécessaires
 		- Avec MongoDB respecter toujours l'ordre de la requête ESR (Equality, Sort, Range)
 		- Avec MongoDB éviter l'utilisation lookup/jointure sur des gros volumes de données. Faire un process 2 temps si besoins
